@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8353A2132A12355B00C40EF0 /* macos_sound_utilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353A2122A12355B00C40EF0 /* macos_sound_utilityApp.swift */; };
+		8353A2152A12355B00C40EF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353A2142A12355B00C40EF0 /* ContentView.swift */; };
+		8353A2172A12355C00C40EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8353A2162A12355C00C40EF0 /* Assets.xcassets */; };
+		8353A21A2A12355C00C40EF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8353A2192A12355C00C40EF0 /* Preview Assets.xcassets */; };
+		8353A2252A12355C00C40EF0 /* macos_sound_utilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353A2242A12355C00C40EF0 /* macos_sound_utilityTests.swift */; };
+		8353A22F2A12355C00C40EF0 /* macos_sound_utilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353A22E2A12355C00C40EF0 /* macos_sound_utilityUITests.swift */; };
+		8353A2312A12355C00C40EF0 /* macos_sound_utilityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353A2302A12355C00C40EF0 /* macos_sound_utilityUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8353A2212A12355C00C40EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8353A2072A12355B00C40EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8353A20E2A12355B00C40EF0;
+			remoteInfo = "macos-sound-utility";
+		};
+		8353A22B2A12355C00C40EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8353A2072A12355B00C40EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8353A20E2A12355B00C40EF0;
+			remoteInfo = "macos-sound-utility";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8353A20F2A12355B00C40EF0 /* macos-sound-utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macos-sound-utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8353A2122A12355B00C40EF0 /* macos_sound_utilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_sound_utilityApp.swift; sourceTree = "<group>"; };
+		8353A2142A12355B00C40EF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8353A2162A12355C00C40EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8353A2192A12355C00C40EF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8353A21B2A12355C00C40EF0 /* macos_sound_utility.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macos_sound_utility.entitlements; sourceTree = "<group>"; };
+		8353A2202A12355C00C40EF0 /* macos-sound-utilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macos-sound-utilityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8353A2242A12355C00C40EF0 /* macos_sound_utilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_sound_utilityTests.swift; sourceTree = "<group>"; };
+		8353A22A2A12355C00C40EF0 /* macos-sound-utilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macos-sound-utilityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8353A22E2A12355C00C40EF0 /* macos_sound_utilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_sound_utilityUITests.swift; sourceTree = "<group>"; };
+		8353A2302A12355C00C40EF0 /* macos_sound_utilityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macos_sound_utilityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8353A20C2A12355B00C40EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353A21D2A12355C00C40EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353A2272A12355C00C40EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8353A2062A12355B00C40EF0 = {
+			isa = PBXGroup;
+			children = (
+				8353A2112A12355B00C40EF0 /* macos-sound-utility */,
+				8353A2232A12355C00C40EF0 /* macos-sound-utilityTests */,
+				8353A22D2A12355C00C40EF0 /* macos-sound-utilityUITests */,
+				8353A2102A12355B00C40EF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8353A2102A12355B00C40EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8353A20F2A12355B00C40EF0 /* macos-sound-utility.app */,
+				8353A2202A12355C00C40EF0 /* macos-sound-utilityTests.xctest */,
+				8353A22A2A12355C00C40EF0 /* macos-sound-utilityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8353A2112A12355B00C40EF0 /* macos-sound-utility */ = {
+			isa = PBXGroup;
+			children = (
+				8353A2122A12355B00C40EF0 /* macos_sound_utilityApp.swift */,
+				8353A2142A12355B00C40EF0 /* ContentView.swift */,
+				8353A2162A12355C00C40EF0 /* Assets.xcassets */,
+				8353A21B2A12355C00C40EF0 /* macos_sound_utility.entitlements */,
+				8353A2182A12355C00C40EF0 /* Preview Content */,
+			);
+			path = "macos-sound-utility";
+			sourceTree = "<group>";
+		};
+		8353A2182A12355C00C40EF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8353A2192A12355C00C40EF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8353A2232A12355C00C40EF0 /* macos-sound-utilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				8353A2242A12355C00C40EF0 /* macos_sound_utilityTests.swift */,
+			);
+			path = "macos-sound-utilityTests";
+			sourceTree = "<group>";
+		};
+		8353A22D2A12355C00C40EF0 /* macos-sound-utilityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8353A22E2A12355C00C40EF0 /* macos_sound_utilityUITests.swift */,
+				8353A2302A12355C00C40EF0 /* macos_sound_utilityUITestsLaunchTests.swift */,
+			);
+			path = "macos-sound-utilityUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8353A20E2A12355B00C40EF0 /* macos-sound-utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8353A2342A12355C00C40EF0 /* Build configuration list for PBXNativeTarget "macos-sound-utility" */;
+			buildPhases = (
+				8353A20B2A12355B00C40EF0 /* Sources */,
+				8353A20C2A12355B00C40EF0 /* Frameworks */,
+				8353A20D2A12355B00C40EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macos-sound-utility";
+			productName = "macos-sound-utility";
+			productReference = 8353A20F2A12355B00C40EF0 /* macos-sound-utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8353A21F2A12355C00C40EF0 /* macos-sound-utilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8353A2372A12355C00C40EF0 /* Build configuration list for PBXNativeTarget "macos-sound-utilityTests" */;
+			buildPhases = (
+				8353A21C2A12355C00C40EF0 /* Sources */,
+				8353A21D2A12355C00C40EF0 /* Frameworks */,
+				8353A21E2A12355C00C40EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8353A2222A12355C00C40EF0 /* PBXTargetDependency */,
+			);
+			name = "macos-sound-utilityTests";
+			productName = "macos-sound-utilityTests";
+			productReference = 8353A2202A12355C00C40EF0 /* macos-sound-utilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8353A2292A12355C00C40EF0 /* macos-sound-utilityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8353A23A2A12355C00C40EF0 /* Build configuration list for PBXNativeTarget "macos-sound-utilityUITests" */;
+			buildPhases = (
+				8353A2262A12355C00C40EF0 /* Sources */,
+				8353A2272A12355C00C40EF0 /* Frameworks */,
+				8353A2282A12355C00C40EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8353A22C2A12355C00C40EF0 /* PBXTargetDependency */,
+			);
+			name = "macos-sound-utilityUITests";
+			productName = "macos-sound-utilityUITests";
+			productReference = 8353A22A2A12355C00C40EF0 /* macos-sound-utilityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8353A2072A12355B00C40EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8353A20E2A12355B00C40EF0 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					8353A21F2A12355C00C40EF0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8353A20E2A12355B00C40EF0;
+					};
+					8353A2292A12355C00C40EF0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8353A20E2A12355B00C40EF0;
+					};
+				};
+			};
+			buildConfigurationList = 8353A20A2A12355B00C40EF0 /* Build configuration list for PBXProject "macos-sound-utility" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8353A2062A12355B00C40EF0;
+			productRefGroup = 8353A2102A12355B00C40EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8353A20E2A12355B00C40EF0 /* macos-sound-utility */,
+				8353A21F2A12355C00C40EF0 /* macos-sound-utilityTests */,
+				8353A2292A12355C00C40EF0 /* macos-sound-utilityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8353A20D2A12355B00C40EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8353A21A2A12355C00C40EF0 /* Preview Assets.xcassets in Resources */,
+				8353A2172A12355C00C40EF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353A21E2A12355C00C40EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353A2282A12355C00C40EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8353A20B2A12355B00C40EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8353A2152A12355B00C40EF0 /* ContentView.swift in Sources */,
+				8353A2132A12355B00C40EF0 /* macos_sound_utilityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353A21C2A12355C00C40EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8353A2252A12355C00C40EF0 /* macos_sound_utilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8353A2262A12355C00C40EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8353A22F2A12355C00C40EF0 /* macos_sound_utilityUITests.swift in Sources */,
+				8353A2312A12355C00C40EF0 /* macos_sound_utilityUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8353A2222A12355C00C40EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8353A20E2A12355B00C40EF0 /* macos-sound-utility */;
+			targetProxy = 8353A2212A12355C00C40EF0 /* PBXContainerItemProxy */;
+		};
+		8353A22C2A12355C00C40EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8353A20E2A12355B00C40EF0 /* macos-sound-utility */;
+			targetProxy = 8353A22B2A12355C00C40EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8353A2322A12355C00C40EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8353A2332A12355C00C40EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8353A2352A12355C00C40EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macos-sound-utility/macos_sound_utility.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macos-sound-utility/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kakamotobi.macos-sound-utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8353A2362A12355C00C40EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macos-sound-utility/macos_sound_utility.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macos-sound-utility/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kakamotobi.macos-sound-utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8353A2382A12355C00C40EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kakamotobi.macos-sound-utilityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macos-sound-utility.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macos-sound-utility";
+			};
+			name = Debug;
+		};
+		8353A2392A12355C00C40EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kakamotobi.macos-sound-utilityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macos-sound-utility.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macos-sound-utility";
+			};
+			name = Release;
+		};
+		8353A23B2A12355C00C40EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kakamotobi.macos-sound-utilityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "macos-sound-utility";
+			};
+			name = Debug;
+		};
+		8353A23C2A12355C00C40EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kakamotobi.macos-sound-utilityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "macos-sound-utility";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8353A20A2A12355B00C40EF0 /* Build configuration list for PBXProject "macos-sound-utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8353A2322A12355C00C40EF0 /* Debug */,
+				8353A2332A12355C00C40EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8353A2342A12355C00C40EF0 /* Build configuration list for PBXNativeTarget "macos-sound-utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8353A2352A12355C00C40EF0 /* Debug */,
+				8353A2362A12355C00C40EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8353A2372A12355C00C40EF0 /* Build configuration list for PBXNativeTarget "macos-sound-utilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8353A2382A12355C00C40EF0 /* Debug */,
+				8353A2392A12355C00C40EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8353A23A2A12355C00C40EF0 /* Build configuration list for PBXNativeTarget "macos-sound-utilityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8353A23B2A12355C00C40EF0 /* Debug */,
+				8353A23C2A12355C00C40EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8353A2072A12355B00C40EF0 /* Project object */;
+}
